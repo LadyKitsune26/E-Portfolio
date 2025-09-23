@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Slabo+27px&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Slabo 27px", serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+section{
+    color: rgb(19, 211, 224);
+}
+
+
+/* 
+
+Landing 
+
+*/
+
+#landing-page{
+    min-height: 100vh;
+}
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1000px; 
+}
+
+
+
+/* 
+
+Navigation 
+
+*/
+
+#personal-logo{
+    filter: invert(1);
+    height: 50px;
+    width: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.nav__link--list{
+    display: flex;
+}
+
+.nav__link{
+    margin: 0 12px;
+}
+
+.nav__link--anchor{
+    text-decoration: none;
+    font-size: 16px;
+    color: #242424;
+    font-weight: 700;
+}
+
+.fa-adjust{
+    font-size: 20px;
+}
+
+
