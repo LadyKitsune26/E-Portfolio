@@ -46,6 +46,71 @@
         <a href="#projects" class="scroll">
             <div class="scroll__icon click"></div>
         </a>
+        <div class="modal">
+            <div class="modal__half modal__about">
+                 <h3 class="modal__title modal__title--about">A little about me</h3>
+                 <h4 class="modal__sub-title modal__sub-title--about">Administration Professional and Frontend Software Developer</h4>
+                 <p class="modal__para">I am a 35 year old frontend software engineer with a passion for creating websites that deliver <b class="aqua">exceptional user experiences</b>. I combine <b class="aqua">technical skills</b> with <b class="aqua">problem-solving</b> and <b class="aqua">attention to detail</b> to build efficient, <b class="aqua">user-friendly solutions.</b>
+                    <br>
+                    <span class="spacer"></span>
+                    I am an experienced HR and administrative professional with a strong foundation in organization, compliance, and problem-solving. My mission is to apply my emerging frontend development skills alongside my proven adaptability and attention to detail to build user-friendly, efficient digital solutions. I am committed to continuous learning and excited to contribute to innovative teams where I can grow as a developer while bringing a fresh perspective from my background in HR and finance. 
+                </p>
+                <div class="modal__languages">
+                    <figure class="modal__language">
+                        <img class="modal__language--img" src="./assets/HTML5_Badge.svg.png" alt="">
+                        <span class="language__name">HTML</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img" src="./assets/css-131-722685.webp" alt="">
+                        <span class="language__name">CSS</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img" src="./assets/javascript-1-225993.webp" alt="">
+                        <span class="language__name">JavaScript</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img" src="./assets/react-3-1175109.webp" alt="">
+                        <span class="language__name">React</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img" src="./assets/icons8-office-365.svg" alt="">
+                        <span class="language__name">Microsoft Office 365</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img class="modal__language--img" src="./assets/icons8-quickbooks-64.png" alt="">
+                        <span class="language__name">QuickBooks</span>
+                    </figure>
+                </div>
+            </div>
+            <div class="modal__half modal__contact">
+                <h3 class="modal__title modal__title--contact">Let's have a chat</h3>
+                <h4 class="modal__sub-title modal__sub-title--contact">I am currently open and seeking new experiences and opportunities within the frontend development field.</h4>
+                <form id="contact__form" action="">
+                    <div class="form__item">
+                        <label class="form__item--label">Name</label>
+                        <input class="input" name="user_name" type="text" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">Email</label>
+                        <input class="input" name="user_email" type="email" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">Message</label>
+                        <textarea class="input" name="message" type="text" required></textarea>
+                    </div>
+                    <button id="contact__submit" class="form__submit">
+                        Send
+                    </button>
+                </form>
+                <div class="modal__overlay modal__overlay--loading">
+                    <i class="fas fa-spinner"></i>
+                </div>
+                <div class="modal__overlay modal__overlay--success">
+                    Thank you for reaching out, looking forward to speaking with you soon.
+                </div>
+            </div>
+             <i class="fas fa-times model__exit"></i>
+        </div>
     </section>
     <section id="projects">
         <div class="container">
@@ -92,7 +157,7 @@
                                     HTML, CSS, JavaScript</h4>
                                 <p class="project__description--para">Frontend Simplified does a really good job with teaching the very basics of JavaScript from elements and promises to arrays and ocjects, here is an example of the code we have practiced with JavaScript.</p>
                                 <div class="project__description--links">
-                                    <a href="https://github.com/LadyKitsune26/Javascript-Crash-Course" class="project__description--link"><i class="fa-brands fa-github" ></i></a>
+                                    <a href="https://github.com/LadyKitsune26/Javascript-Crash-Course" class="project__description--link" target="_blank"><i class="fa-brands fa-github" ></i></a>
                                 </div>
                             </div>
                         </div>
@@ -101,5 +166,21 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="row footer__row">
+                <figure>
+                    <img src="./assets/logo.svg" class="footer__logo--img" alt="">
+                </figure>
+                <div class="footer__social--list">
+                    <a href="https://github.com/LadyKitsune26" target="_blank" class="footer__social--link link__hover-effect link__hover-effect--white">GitHub</a>
+                    <a href="https://www.linkedin.com/in/raimey-langlois-2a6a87111/" target="_blank" class="footer__social--link link__hover-effect link__hover-effect--white">LinkedIn</a>
+                    <a href="mailto:langlois.raimey@gmail.com" target="_blank" class="footer__social--link link__hover-effect link__hover-effect--white">Contact</a>
+                    <a href="./assets/Raimey Langlois resume.pdf" target="_blank" class="footer__social--link link__hover-effect link__hover-effect--white">Resume</a>
+                </div>
+                <div class="footer__copyright">Copyright 2025 Raimey Langlois</div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
