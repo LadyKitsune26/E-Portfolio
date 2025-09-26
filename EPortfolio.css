@@ -148,7 +148,8 @@ nav,
 .dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-adjust,
-.dark-theme .header__para{
+.dark-theme .header__para,
+#personal-logo{
     color: white;
 }
 

@@ -3,6 +3,11 @@
 // 0Kvg71VgxkqtGr17U
 
 
+
+
+//Dark-Theme function
+
+
 let contrastToggle = false
 function toggleContrast(){
     contrastToggle = !contrastToggle
@@ -13,6 +18,11 @@ function toggleContrast(){
         document.body.classList.remove(`dark-theme`)
     }
 }
+
+
+// Contact Function
+
+
 
 function contact(){
     event.preventDefault();
@@ -38,6 +48,12 @@ function contact(){
 }
 
  
+
+
+
+// Modal function
+
+
 let isModalOpen = false
 function toggleModal(){
     if (isModalOpen){
