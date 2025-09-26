@@ -32,9 +32,9 @@
                     <a href="" class="nav__link--anchor link__hover-effect link__hover-effect--black">Projects</a>
                 </li>
                  <li class="nav__link" onclick="toggleModal()">
-                    <a href="" class="nav__link--anchor link__hover-effect link__hover-effect--black">Contact</a>
+                    <a class="nav__link--anchor link__hover-effect link__hover-effect--black">Contact</a>
                 </li>
-                <li class="nav__link click">
+                <li class="nav__link click" onclick="toggleContrast">
                     <a href="" class="nav__link--anchor link__hover-effect link__hover-effect--black"><i class="fa-solid fa-circle-half-stroke"></i></a>
                 </li>
             </ul>
@@ -44,7 +44,7 @@
                 <h1 class="title">Hello</h1>
                 <h1 class="title aqua">I'm Raimey</h1>
                 <p class="header__para">I'm a <b class="aqua">Frontend Software Engineer</b> and <b claSS="aqua">Administration Professional</b> with a strong passion for building web applications with great user experiences and customer service.
-                <br>Here is a bit more <b class="aqua">about me.</b></p>
+                <br>Here is a bit more <b class="aqua click" onclick="toggleModal()">about me.</b></p>
                 <div class="social__list aqua">
                     <a href="https://www.linkedin.com/in/raimey-langlois-2a6a87111/" class="social__link click" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="https://github.com/LadyKitsune26" class="social__link click" target="_blank"><i class="fa-brands fa-github" ></i></a>
@@ -93,7 +93,7 @@
                 </div>
             </div>
             <div class="modal__half modal__contact">
-                <i class="fas fa-times modal__exit click"></i>
+                <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
                 <h3 class="modal__title modal__title--contact">Let's have a chat</h3>
                 <h4 class="modal__sub-title modal__sub-title--contact">I am currently open and seeking new experiences and opportunities within the frontend development field.</h4>
                 <form id="contact__form" onsubmit="contact(event)">
