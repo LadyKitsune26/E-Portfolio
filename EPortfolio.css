@@ -8,6 +8,10 @@
     font-family: "Slabo 27px", serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 li{
     list-style-type: none;
 }
@@ -225,6 +229,7 @@ Landing
 }
 
 .mail__btn{
+    position: fixed;
     width: 70px;
     height: 70px;
     font-size: 32px;
