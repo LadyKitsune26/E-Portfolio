@@ -619,6 +619,7 @@ Footer
 
 
 footer{
+    position: relative;
     background-color: #242424;
     display: flex;
     padding: 6% 0%;
@@ -725,3 +726,71 @@ width = 80vw
 }
 
 
+/* 
+
+Small phones, tablets, large phones 
+
+*/
+
+@media (max-width: 768px){
+    .title{
+        font-size: 80px;
+    }
+
+    .header__para{
+        font-size: 20px;
+    }
+
+    .modal{
+        top: 0;
+        left: 0;
+        height: auto;
+        transform: none;
+        width: 100%;
+        flex-direction: column-reverse;
+        border-radius: 0;
+    }
+
+    .modal__half{
+        width: 100%;
+    }
+}
+
+/*
+
+Small phones
+
+*/
+
+@media(max-width: 480px){
+    .title{
+        font-size: 52px;
+    }
+
+    .header__para{
+        font-size: 18px;
+    }
+
+    .nav__link:first-child{
+        display: none;
+    }
+
+    .project__description--para{
+        display: none;
+    }
+
+    .project__description{
+        left: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .project__description--sub-title{
+        margin-bottom: 8px;
+    }
+
+    .modal__half{
+        padding: 40px;
+    }
+}
