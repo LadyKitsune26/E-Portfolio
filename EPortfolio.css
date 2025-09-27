@@ -538,6 +538,7 @@ Projects
     width: 100%;
     padding: 48px 48px;
     transition: all 600ms ease;
+    background-color: rgb(207, 245, 248)
 }
 
 .project__wrapper{
